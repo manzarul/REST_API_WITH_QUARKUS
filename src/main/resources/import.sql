@@ -1,0 +1,9 @@
+INSERT INTO users(id,name,email) VALUES (nextval('hibernate_sequence'),'Mango','Mango@gmail.com');
+INSERT INTO users(id,name,email) VALUES (nextval('hibernate_sequence'),'Strawberry','Spring@gmail.com');
+INSERT INTO users(id,name,email) VALUES (nextval('hibernate_sequence'),'Orange','Winter@gmail.com');
+INSERT INTO users(id,name,email) VALUES (nextval('hibernate_sequence'),'Lemon','Winter-1@gmail.com');
+INSERT INTO users(id,name,email) VALUES (nextval('hibernate_sequence'),'Blueberry','Summer@gmail.com');
+INSERT INTO users(id,name,email) VALUES (nextval('hibernate_sequence'),'Banana','Summer-1@gmail.com');
+INSERT INTO users(id,name,email) VALUES (nextval('hibernate_sequence'),'Watermelon','Summer-2@gmail.com');
+INSERT INTO users(id,name,email) VALUES (nextval('hibernate_sequence'),'Apple','Fall-1@gmail.com');
+INSERT INTO users(id,name,email) VALUES (nextval('hibernate_sequence'),'Pear','Fall-2@gmail.com');
