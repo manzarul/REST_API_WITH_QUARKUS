@@ -13,4 +13,6 @@ If you want to learn more about Quarkus, please visit its website: https://quark
   It will expose couple of Rest APIs
  * Get http://localhost:8080/api/v1/user
  *  curl -d '{"name": "manzarul", "email": "xyz@gmail.com"}' -H "Content-Type: application/json" http://localhost:8080/api/v1/user
+
+#### Ref here to deploy application on kubernetes : **https://redhat-developer-demos.github.io/quarkus-tutorial/quarkus-tutorial/kubernetes.html**
  
