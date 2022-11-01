@@ -8,7 +8,8 @@ If you want to learn more about Quarkus, please visit its website: https://quark
  * mvn clean install
  * mvn quarkus:dev
  Now server will be started on http://localhost:8080
- ###This will use H2 inmemory DB and some data that will be loaded during server startup. 
+ 
+ ### This will use H2 inmemory DB and some data that will be loaded during server startup. 
  Test data are kept under resources folder with file name as import.sql. 
   It will expose couple of Rest APIs
  * Get http://localhost:8080/api/v1/user
