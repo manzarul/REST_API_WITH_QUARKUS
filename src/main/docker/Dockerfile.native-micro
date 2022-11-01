@@ -5,16 +5,16 @@
 # Check https://quarkus.io/guides/quarkus-runtime-base-image for further information about this image.
 #
 # Before building the container image run:
-#
-# ./mvnw package -Pnative
+
+ ./mvnw package -Pnative
 #
 # Then, build the image with:
-#
-# docker build -f src/main/docker/Dockerfile.native-micro -t quarkus/code-with-quarkus .
-#
+
+ docker build -f src/main/docker/Dockerfile.native-micro -t quarkus/rest_api .
+
 # Then run the container using:
 #
-# docker run -i --rm -p 8080:8080 quarkus/code-with-quarkus
+ docker run -i --rm -p 8080:8080 quarkus/rest_api
 #
 ###
 FROM quay.io/quarkus/quarkus-micro-image:1.0
